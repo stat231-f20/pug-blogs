@@ -1,7 +1,7 @@
 ---
 author: Data for Good
 title: Intriguing Title Here
-featimg: dataforgood.jpg
+featimg: data_for_good.jpg
 tags: [text]
 category: [standard]
 ---
