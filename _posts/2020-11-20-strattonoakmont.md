@@ -1,6 +1,6 @@
 ---
 author: Stratton Oakmont
-title: Sustainability in the S&P 100
+title: Profiting from Sustainability: A Look into Environmentally Conscious Companies
 featimg: stratton.jpg
 tags: [text]
 category: [standard]
