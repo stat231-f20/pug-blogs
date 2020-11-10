@@ -1,0 +1,53 @@
+name: Nome Do Site
+description: um site legal
+featimg: homecover.jpg
+
+url: http://meuSite.com
+baseurl: '/gridster-jekyll-theme-simple'
+port: 4343
+permalink: /:title/
+
+media_folder: /media
+destination: jekyllbuild
+full_rebuild: true
+gems: [jekyll-paginate]
+paginate: 8
+paginate_path: /page/:num/
+infinite_scroll: true #false for pagination
+
+tumblr: "#"
+pinterest: "#"
+instagram: "#"
+twitter: "#"
+facebook: "#"
+youtube: "#"
+vimeo: "#"
+soundcloud: "#"
+
+encoding: utf-8
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page-full"
+      type: "standard"
+      homedisplay: "featimg"
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post-full"
+      type: "standard"
+      homedisplay: "featimg"
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+relative_permalinks: false
+include: ['_pages']
+exclude: [.git, .gitignore, .sass-cache, README.md, jekyllbuild]
