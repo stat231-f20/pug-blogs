@@ -1,9 +1,9 @@
-name: Nome Do Site
-description: um site legal
+name: Data Science Stories
+description: Amherst College Fall 2020
 featimg: homecover.jpg
 
-url: http://meuSite.com
-baseurl: '/gridster-jekyll-theme-simple'
+url: https://stat231-f20.github.io/pug-blogs/
+baseurl: 'https://stat231-f20.github.io/pug-blogs/'
 port: 4343
 permalink: /:title/
 
