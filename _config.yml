@@ -2,8 +2,8 @@ name: Data Science Stories
 description: Amherst College Fall 2020
 featimg: homecover.jpg
 
-url: https://stat231-f20.github.io/pug-blogs/
-baseurl: 'https://stat231-f20.github.io/pug-blogs/'
+url: https://stat231-f20.github.io
+baseurl: '/pug-blogs'
 port: 4343
 permalink: /:title/
 
