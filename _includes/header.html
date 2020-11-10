@@ -1,0 +1,18 @@
+<div class="logo-container">
+    {% assign thumb = site.featimg | replace: '.jpg', '' %}
+    {% assign imgSrc = site.media_folder | prepend: site.baseurl | replace: '//', '/' %}
+    {% assign imgSrc = imgSrc | append: '/covers/' | append: thumb | append: '.jpg' %}
+    {% assign imgHeight = '' %}
+
+    {% if page.permalink == '/' %}
+      {% assign imgHeight = 'logo-image-home' %}
+    {% endif %}
+    <div class="logo-image {{ imgHeight }}" style="background-image: url({{ imgSrc }});">
+      <img src="{{ imgSrc }}" alt="{{ thumb }}">
+    </div>
+    <div class="logo-background">
+      <a class="logo-text" href="{{ site.baseurl | replace: '//', '/' }}/">
+        {{ site.name }}
+      </a>
+    </div>
+</div>

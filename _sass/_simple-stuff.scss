@@ -1,0 +1,56 @@
+.logo-container {
+  position: relative;
+
+  .logo-image {
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+    max-height: 320px;
+
+    img {
+      visibility: hidden;
+    }
+  }
+
+  .logo-image-home {
+    max-height: 450px;
+  }
+
+  .logo-background {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(255,255,255,0), rgba(0,0,0,0.5), rgba(255,255,255,0));
+  }
+
+  .logo-text {
+    color: #fff;
+    transition: text-shadow 0.1s linear;
+    font: 900 32px Roboto;
+    text-transform: uppercase;
+
+    @media (min-width: 600px) {
+      font-size: 64px;
+      height: 70px;
+    }
+    @media (min-width: 1000px) {
+      font-size: 80px;
+      height: 110px;
+    }
+  }
+
+  .logo-text:hover {
+    text-shadow: 0px 0px 48px #fff;
+  }
+
+}
