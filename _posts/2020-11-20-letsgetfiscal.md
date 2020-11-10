@@ -1,6 +1,6 @@
 ---
 author: Let's Get Fiscal
-title: Where should the next Subway be located?
+title: Where should the next McDonald's be located?
 featimg: fiscal.jpg
 tags: [text]
 category: [standard]
