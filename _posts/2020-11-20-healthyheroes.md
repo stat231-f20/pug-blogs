@@ -1,7 +1,7 @@
 ---
 author: Healthy Heroes
 title: Carbon Emissions and Respiratory Illness
-featimg: healthy_heroes.jpg
+featimg: health_heroes.jpg
 tags: [text]
 category: [standard]
 ---
