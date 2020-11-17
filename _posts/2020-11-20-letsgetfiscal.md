@@ -1,6 +1,6 @@
 ---
 author: Let's Get Fiscal
-title: Where should the next Starbuck's be located?
+title: Where should the next Starbucks be located?
 featimg: fiscal1.jpg
 tags: [text]
 category: [standard]
