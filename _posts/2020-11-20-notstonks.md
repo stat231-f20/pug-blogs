@@ -1,7 +1,7 @@
 ---
 author: Not Stonks
-title: International Trade Networks
-featimg: notstonks.jpg
+title: International Trade
+featimg: notstonks1.jpg
 tags: [text]
 category: [standard]
 ---
