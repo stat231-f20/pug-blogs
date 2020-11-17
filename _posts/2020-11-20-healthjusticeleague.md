@@ -1,7 +1,9 @@
 ---
-type: standard
-title: Health & Justice League
-featimg: ph_sj.jpg
+author: Health & Justice League
+title: Considering the Ripple Effects of Climate Change
+featimg: ph_sj1.jpg
+tags: [text]
+category: [standard]
 ---
 
-Here we'll add text enticing the reader to <a href="https://stat231-f20.github.io/Blog-HealthAndJusticeLeague//" target="blank">check out your post</a>!  We can also update the picture to be a cool visualization you've created.
+How has the impact of natural disasters changed over time? How many people have been affected by these climate disasters?  Check out the Health and Justice League's post <a href="https://stat231-f20.github.io/Blog-HealthAndJusticeLeague//" target="blank"> here </a> to explore these questions and more with interactive Leaflet maps and Shiny applications.  
